@@ -1,0 +1,34 @@
+{
+  "Employees": [
+    {
+      "name": "asjdf",
+      "departments": "[\"HR\"]",
+      "profileImage": "pic1",
+      "gender": "male",
+      "salary": "30000",
+      "date": "4/5/2004",
+      "notes": "asdfasd",
+      "id": 1
+    },
+    {
+      "name": "",
+      "departments": "[]",
+      "profileImage": "pic1",
+      "gender": "male",
+      "salary": "10000",
+      "date": "//",
+      "notes": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "departments": "[]",
+      "profileImage": "pic1",
+      "gender": "male",
+      "salary": "10000",
+      "date": "//",
+      "notes": "",
+      "id": 3
+    }
+  ]
+}

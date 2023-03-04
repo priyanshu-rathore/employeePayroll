@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll</title>
+    <link rel="shortcut icon" href="pngegg.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="pngegg.png" alt="">
+        </div>
+        <div class="brand">
+            <p class="employee">Employee</p>
+            <p class="payroll">Payroll</p>
+        </div>
+    </div>
+    <main>
+        <form action="submit" id="employee-payroll">
+            <h1>Employee Payroll Form</h1>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" value="" placeholder="Enter your Name">
+                
+            </div>
+            <div>
+                <label for="profile-img">Profile Image</label>
+                <input type="radio" name="profile" id="pic1" value="pic1">
+                <img src="https://www.epicdope.com/wp-content/uploads/2019/09/Deku.jpg" alt="">        
+                <input type="radio" name="profile" id="" value="pic2">
+                <img src="https://cdn.anime-planet.com/characters/primary/monkey-d-luffy-1-285x398.webp?t=1653414141" alt="">        
+                <input type="radio" name="profile" id="" value="pic3">
+                <img src="" alt="">        
+                <input type="radio" name="profile" id="" value="pic4">
+                <img src="" alt="">        
+
+            </div>
+            <div class="gender">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="" value="male">
+                <span>Male</span>
+                <input type="radio" name="gender" value="female">
+                <span>Female</span>
+            </div>
+            <div class="dept">
+                <label for="department">Department</label>
+                <input type="checkbox" value="HR" style="margin-left: 10em;" name="" id="">
+                <span>HR</span>
+                <input type="checkbox" value="Sales" name="" id="">
+                <span>Sales</span>
+
+                <input type="checkbox" value="Finance" name="" id="">
+                <span>Finance</span>
+
+                <input type="checkbox" value="Engineer" name="" id="">
+                <span>Engineer</span>
+
+                <input type="checkbox" value="Others" name="" id="">
+                <span>Others</span>
+
+
+            </div>
+            <div class="salary">
+                <label for="">Salary</label>
+                <select name="Select Salary" id="salary">
+                    Select Salary
+                    <option value="10000">10000</option>
+                    <option value="20000">20000</option>
+                    <option value="30000">30000</option>
+                    <option value="40000">40000</option>
+                    <option value="50000">50000</option>
+                    <option value="60000">60000</option>
+                    <option value="70000">70000</option>
+                    <option value="80000">80000</option>
+                    <option value="90000">90000</option>
+                    <option value="100000">100000</option>
+
+
+                </select>
+            </div>
+            <div>
+                <label for="">Start Date</label>
+                <select name="" id="day">
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+
+                </select>
+                <select name="" id="month">
+                    <option value="">Month</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+
+
+                    
+                </select>
+                <select name="" id="year">
+                    <option value="">Year</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+
+                </select>
+            </div>
+            <div class="note">
+                <label for="">Notes</label>
+                <textarea id="notes"></textarea>
+            </div>
+            <div class="btn">
+                <div>
+                    <button><a href="EmployeeDetails.html" style="outline:none; text-decoration: none;">Cancel</a></button>
+                </div>
+                <div>
+                    <button type="submit" id="sub">Submit</button>
+                    <button>Reset</button>
+                </div>
+            </div>
+            </form>
+    </main>
+</body>
+<script src="form.js"></script>
+</html>
